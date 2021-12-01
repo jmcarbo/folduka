@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Grid</title>
+		<link rel="stylesheet" href="https://uicdn.toast.com/tui-grid/latest/tui-grid.css" />
+	</head>
+	<body>
+		<button onclick="clickbutton()">Add row</button>
+		<button onclick="save()">Saveº</button>
+		<div id="grid"></div>
+
+
+		<script src='/js/jquery-3.3.1.min.js'></script>
+		<script src='/js/tui-code-snippet.js'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.0/backbone-min.js"></script>
+		<script src="https://uicdn.toast.com/tui-grid/latest/tui-grid.js"></script>
+
+		<script charset="utf-8">
+			var instance = new tui.Grid({
+			el: $('#grid'), // Container element
+			columns: {{jsSave .Components}},
+		data: {{ jsSave .Values }}
+	    });
+	    function clickbutton() {
+	    instance.appendRow({},{});
+	    }
+	    function save() {
+	    console.log(JSON.stringify(instance.getRows()));
+			$.ajax({
+			type: "POST",
+			{{ if .rootTag }}
+			url: '/formfill/{{.Path}}?root-tag={{.rootTag}}',
+			{{ else }}
+			url: '/formfill/{{.Path}}',
+			{{ end }}
+			beforeSend: function(request) {
+				request.setRequestHeader("X-CSRF-Token", "{{.CSRFToken}}");
+			},
+			data: JSON.stringify(instance.getRows()),
+			success: function( data, textStatus, jQxhr ){
+			        console.log( JSON.stringify( data ) );
+			},
+			error: function( jqXhr, textStatus, errorThrown ){
+			        console.log( errorThrown );
+			},
+			//dataType: 'application/json' 
+			dataType: 'text'
+			}).then(response => {
+				          //form.emit('submitDone', submission)
+				          //response.json()
+			});
+	    }
+		</script>
+	</body>
+</html>
+

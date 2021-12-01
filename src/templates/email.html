@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>{{.Subject}}</title>
+	</head>
+	<body>
+		<dl>
+			{{ range .HeaderKeys }}
+			<dt>{{.}}</dt>
+			<dd>{{index $.Headers . }}</dd>
+			{{ end }}
+		</dl>
+		<hr/>
+		{{ if .HTML }}
+		{{ htmlSafe .HTML }}
+		{{ else }}
+		{{ .Text }}
+		{{ end }}
+		<hr/>
+		<ul>
+		{{ range .Inlines }}
+		<li><a href="/{{$.Dir}}/{{.}}">{{.}}</a></li>
+		{{end}}
+		</ul>
+		<hr/>
+		<ul>
+		{{ range .Attachments }}
+		<li><a href="/{{$.Dir}}/{{.}}">{{.}}</a></li>
+		{{end}}
+		</ul>
+	</body>
+</html>

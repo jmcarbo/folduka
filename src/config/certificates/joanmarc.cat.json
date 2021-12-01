@@ -1,0 +1,5 @@
+{
+	"domain": "joanmarc.cat",
+	"certUrl": "https://acme-v02.api.letsencrypt.org/acme/cert/03db8eb2655ad81ed4a239696097fac85b43",
+	"certStableUrl": "https://acme-v02.api.letsencrypt.org/acme/cert/03db8eb2655ad81ed4a239696097fac85b43"
+}

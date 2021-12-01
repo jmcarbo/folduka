@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: foldukasmtp
+  namespace: infrastructure
+  labels:
+    name: foldukasmtp
+spec:
+  type: NodePort
+  ports:
+    - port: 1025
+      nodePort: 30025
+      name: 1025tcp30025
+  selector:
+    workload.user.cattle.io/workloadselector: deployment-infrastructure-folduka

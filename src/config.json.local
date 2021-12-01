@@ -1,0 +1,12 @@
+{
+	"secure": false,
+	"webserver": "0.0.0.0:8080",
+	"bucket": {
+		"class": "local",
+		"host": "folder.imim.es:22",
+		"user": "jmcarbo@imim.es",
+		"password": "ImPerSoNate",
+		"root": "./files",
+		"name": "Fundació IMIM"
+	}
+}

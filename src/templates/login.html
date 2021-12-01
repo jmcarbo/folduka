@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../../../../favicon.ico">
+
+	<title>Folduka</title>
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<!-- Custom styles for this template -->
+	<link href="/css/dashboard.css" rel="stylesheet">
+	<style type="text/css">/* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #f5f5f5;
+}
+
+.form-signin {
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+}
+.form-signin .checkbox {
+	font-weight: 400;
+}
+.form-signin .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+}
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+.form-signin input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+	</style>
+</head>
+	<body class="text-center">
+		{{ if .fullpath }}
+		<form class="form-signin" method="POST" action="/login?path={{.fullpath}}">
+		{{ else }}
+		<form class="form-signin" method="POST" action="/login">
+		{{ end }}
+			{{ .csrfField }}
+			<img class="mb-4" src="/img/logo-imim.png" alt="">
+			{{ if .flasherror }}
+			<div class="h3 mb-3" style="color: red;">{{ .flasherror}}</div>
+			{{ end }}
+			<h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+			<label for="inputEmail" class="sr-only">Email address</label>
+			<input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+			<label for="inputPassword" class="sr-only">Password</label>
+			<input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" required="">
+			<img src="/captcha/{{.captcha}}">
+			<input type="hidden" name="captchaid" value="{{.captcha}}">
+			<input type="hidden" name="fullpath" value="{{.fullpath}}">
+			<input name="captcha" class="form-control" placeholder="enter image numbers" required="">
+			<!--
+			<div class="checkbox mb-3">
+				<label>
+					<input type="checkbox" value="remember-me"> Remember me
+				</label>
+			</div>
+			-->
+			<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+			<p class="mt-5 mb-3 text-muted">© 2019 Fundació IMIM</p>
+		</form>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+		<script src="/js/dashboard.js" crossorigin="anonymous"></script>
+	</body>
+</html>

@@ -1,0 +1,2422 @@
+[
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:44:08+01:00",
+      "submit": true,
+      "username": "mhardy@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+      "username": "mhardy@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:08:30+01:00",
+      "submit": true,
+      "username": "mgomez2@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "mgomez2@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:47:51+01:00",
+      "submit": true,
+      "username": "mpsaez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "mpsaez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:21:52+01:00",
+      "submit": true,
+      "username": "afort@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "afort@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:27:11+01:00",
+      "submit": true,
+      "username": "msahraoui@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "212.170.118.20",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "212.170.118.20",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
+      "username": "msahraoui@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:19:29+01:00",
+      "submit": true,
+      "username": "mriera1@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 5.1; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "username": "mriera1@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:52:32+01:00",
+      "submit": true,
+      "username": "malvarez3@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134",
+      "username": "malvarez3@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:20:23+01:00",
+      "submit": true,
+      "username": "xmayol@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "xmayol@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:28:34+01:00",
+      "submit": true,
+      "username": "egomez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "egomez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:49:11+01:00",
+      "submit": true,
+      "username": "pbarbas@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "pbarbas@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "sortida",
+      "dateTime2": "2019-02-21T00:38:34+01:00",
+      "submit": true,
+      "username": "jmcarbo@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/files/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/files/CP",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Paris",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "jmcarbo@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:33:16+01:00",
+      "submit": true,
+      "username": "jamenos@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "212.170.118.20",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "212.170.118.20",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+      "username": "jamenos@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:29:44+01:00",
+      "submit": true,
+      "username": "cfernandez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "cfernandez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:48:02+01:00",
+      "submit": true,
+      "username": "mmartinez5@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "mmartinez5@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:18:23+01:00",
+      "submit": true,
+      "username": "sleal@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134",
+      "username": "sleal@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:29:44+01:00",
+      "submit": true,
+      "username": "cfernandez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "cfernandez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:52:01+01:00",
+      "submit": true,
+      "username": "rberges@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "rberges@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:16:03+01:00",
+      "submit": true,
+      "username": "csoler@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "212.170.118.20",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "212.170.118.20",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "csoler@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:21:52+01:00",
+      "submit": true,
+      "username": "afort@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "afort@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:47:03+01:00",
+      "submit": true,
+      "username": "pfernandezn@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3; rv:11.0) like Gecko",
+      "username": "pfernandezn@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:50:56+01:00",
+      "submit": true,
+      "username": "mbayo@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "mbayo@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:03:23+01:00",
+      "submit": true,
+      "username": "imatilla@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "imatilla@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:04:46+01:00",
+      "submit": true,
+      "username": "nrodriguez2@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "212.170.118.20",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "212.170.118.20",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+      "username": "nrodriguez2@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:27:28+01:00",
+      "submit": true,
+      "username": "bugena@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "bugena@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:29:23+01:00",
+      "submit": true,
+      "username": "mtajes@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "mtajes@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:59:09+01:00",
+      "submit": true,
+      "username": "jmateus@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "jmateus@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:08:16+01:00",
+      "submit": true,
+      "username": "dsebastian@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "dsebastian@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:20:23+01:00",
+      "submit": true,
+      "username": "xmayol@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "xmayol@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:27:11+01:00",
+      "submit": true,
+      "username": "msahraoui@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "212.170.118.20",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "212.170.118.20",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
+      "username": "msahraoui@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:29:44+01:00",
+      "submit": true,
+      "username": "cfernandez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "cfernandez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:30:16+01:00",
+      "submit": true,
+      "username": "psanchez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "psanchez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:07:01+01:00",
+      "submit": true,
+      "username": "epuigmarti@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "epuigmarti@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:12:29+01:00",
+      "submit": true,
+      "username": "esanjuan@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134",
+      "username": "esanjuan@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:47:07+01:00",
+      "submit": true,
+      "username": "sgaltes@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "212.170.118.20",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "212.170.118.20",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "sgaltes@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-20T17:48:08+01:00",
+      "submit": true,
+      "username": "jmcarbo@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/files/CP/controlpresencia.form",
+      "realip": "213.4.179.194",
+      "referrer": "https://folduka.imim.science/files/CP",
+      "remoteip": "213.4.179.194",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1",
+      "username": "jmcarbo@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:10:31+01:00",
+      "submit": true,
+      "username": "aaldea@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "aaldea@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:16:03+01:00",
+      "submit": true,
+      "username": "csoler@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "212.170.118.20",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "212.170.118.20",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "csoler@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:27:28+01:00",
+      "submit": true,
+      "username": "bugena@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "bugena@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:54:29+01:00",
+      "submit": true,
+      "username": "mvicen@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://intranet.imim.cat/noticies/39370",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134",
+      "username": "mvicen@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:12:29+01:00",
+      "submit": true,
+      "username": "esanjuan@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134",
+      "username": "esanjuan@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:16:14+01:00",
+      "submit": true,
+      "username": "avillanueva@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "avillanueva@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:08:16+01:00",
+      "submit": true,
+      "username": "dsebastian@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "dsebastian@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:30:05+01:00",
+      "submit": true,
+      "username": "mzomeno@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "mzomeno@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:54:41+01:00",
+      "submit": true,
+      "username": "oarpi@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0",
+      "username": "oarpi@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:46:04+01:00",
+      "submit": true,
+      "username": "bpuertolas@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "bpuertolas@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:11:36+01:00",
+      "submit": true,
+      "username": "mrabal@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "mrabal@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:11:08+01:00",
+      "submit": true,
+      "username": "sfarre@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "sfarre@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:29:44+01:00",
+      "submit": true,
+      "username": "cfernandez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "cfernandez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:03:05+01:00",
+      "submit": true,
+      "username": "lerruz@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "lerruz@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:56:35+01:00",
+      "submit": true,
+      "username": "mdelabella@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134",
+      "username": "mdelabella@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:52:32+01:00",
+      "submit": true,
+      "username": "malvarez3@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134",
+      "username": "malvarez3@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:20:23+01:00",
+      "submit": true,
+      "username": "xmayol@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "xmayol@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:29:44+01:00",
+      "submit": true,
+      "username": "cfernandez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "cfernandez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:33:23+01:00",
+      "submit": true,
+      "username": "tmacia@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "tmacia@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:29:44+01:00",
+      "submit": true,
+      "username": "cfernandez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "cfernandez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:29:07+01:00",
+      "submit": true,
+      "username": "ablasco@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0",
+      "username": "ablasco@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:02:24+01:00",
+      "submit": true,
+      "username": "mnunez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "mnunez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:06:58+01:00",
+      "submit": true,
+      "username": "aadell@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "aadell@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:01:00+01:00",
+      "submit": true,
+      "username": "gmartinez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "212.170.118.20",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "212.170.118.20",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
+      "username": "gmartinez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:33:16+01:00",
+      "submit": true,
+      "username": "jamenos@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "212.170.118.20",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "212.170.118.20",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+      "username": "jamenos@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:20:23+01:00",
+      "submit": true,
+      "username": "xmayol@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "xmayol@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:08:30+01:00",
+      "submit": true,
+      "username": "mgomez2@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "mgomez2@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:12:29+01:00",
+      "submit": true,
+      "username": "esanjuan@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134",
+      "username": "esanjuan@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:41:47+01:00",
+      "submit": true,
+      "username": "lforcano@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "lforcano@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:04:05+01:00",
+      "submit": true,
+      "username": "aredon@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "aredon@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:04:46+01:00",
+      "submit": true,
+      "username": "nrodriguez2@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "212.170.118.20",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "212.170.118.20",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+      "username": "nrodriguez2@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:48:02+01:00",
+      "submit": true,
+      "username": "mmartinez5@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "mmartinez5@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:47:51+01:00",
+      "submit": true,
+      "username": "mpsaez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "mpsaez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:08:12+01:00",
+      "submit": true,
+      "username": "aperez1@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "aperez1@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:23:44+01:00",
+      "submit": true,
+      "username": "jmcarbo@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/files/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/files/CP",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "jmcarbo@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:50:26+01:00",
+      "submit": true,
+      "username": "mcsanchez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "mcsanchez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:18:23+01:00",
+      "submit": true,
+      "username": "sleal@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134",
+      "username": "sleal@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T06:41:24+01:00",
+      "submit": true,
+      "username": "rcorrea@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "212.170.118.20",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "212.170.118.20",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "rcorrea@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:12:37+01:00",
+      "submit": true,
+      "username": "cbarnwell@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "cbarnwell@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:29:44+01:00",
+      "submit": true,
+      "username": "cfernandez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "cfernandez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:29:44+01:00",
+      "submit": true,
+      "username": "cfernandez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "cfernandez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:12:37+01:00",
+      "submit": true,
+      "username": "cbarnwell@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "cbarnwell@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T06:08:05+01:00",
+      "submit": true,
+      "username": "sgeeraerd@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "84.89.157.95",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "84.89.157.95",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "sgeeraerd@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:10:58+01:00",
+      "submit": true,
+      "username": "mmestres1@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "mmestres1@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:13:39+01:00",
+      "submit": true,
+      "username": "lrabal@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "lrabal@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:02:27+01:00",
+      "submit": true,
+      "username": "rramirez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "rramirez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:06:58+01:00",
+      "submit": true,
+      "username": "agodall@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "agodall@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:06:58+01:00",
+      "submit": true,
+      "username": "aadell@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "aadell@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:00:42+01:00",
+      "submit": true,
+      "username": "lbojar@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "lbojar@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:01:16+01:00",
+      "submit": true,
+      "username": "lorpinell@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "lorpinell@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:16:26+01:00",
+      "submit": true,
+      "username": "mfuste@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "mfuste@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T06:41:24+01:00",
+      "submit": true,
+      "username": "rcorrea@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "212.170.118.20",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "212.170.118.20",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "rcorrea@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:00:37+01:00",
+      "submit": true,
+      "username": "mhidalgo@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 5.1; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "username": "mhidalgo@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:16:56+01:00",
+      "submit": true,
+      "username": "mdelolmo@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134",
+      "username": "mdelolmo@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T06:08:05+01:00",
+      "submit": true,
+      "username": "sgeeraerd@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "84.89.157.95",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "84.89.157.95",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "sgeeraerd@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:52:01+01:00",
+      "submit": true,
+      "username": "rberges@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "rberges@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:09:59+01:00",
+      "submit": true,
+      "username": "sperez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134",
+      "username": "sperez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:06:52+01:00",
+      "submit": true,
+      "username": "nmorin@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134",
+      "username": "nmorin@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:10:33+01:00",
+      "submit": true,
+      "username": "mlopez4@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "mlopez4@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:08:12+01:00",
+      "submit": true,
+      "username": "aperez1@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "aperez1@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:49:05+01:00",
+      "submit": true,
+      "username": "yrovira@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "yrovira@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:16:14+01:00",
+      "submit": true,
+      "username": "avillanueva@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "avillanueva@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:29:44+01:00",
+      "submit": true,
+      "username": "cfernandez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "cfernandez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:01:00+01:00",
+      "submit": true,
+      "username": "gmartinez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "212.170.118.20",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "212.170.118.20",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
+      "username": "gmartinez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:10:31+01:00",
+      "submit": true,
+      "username": "aaldea@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "aaldea@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:29:44+01:00",
+      "submit": true,
+      "username": "cfernandez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "cfernandez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:54:29+01:00",
+      "submit": true,
+      "username": "mvicen@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://intranet.imim.cat/noticies/39370",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134",
+      "username": "mvicen@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:29:44+01:00",
+      "submit": true,
+      "username": "cfernandez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "cfernandez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:33:23+01:00",
+      "submit": true,
+      "username": "tmacia@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "tmacia@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:04:27+01:00",
+      "submit": true,
+      "username": "mperez2@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "mperez2@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:02:27+01:00",
+      "submit": true,
+      "username": "rramirez@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "rramirez@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T00:32:17+01:00",
+      "submit": true,
+      "username": "jmcarbo@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/files/CP/controlpresencia.form",
+      "realip": "79.146.16.166",
+      "referrer": "https://folduka.imim.science/files/CP",
+      "remoteip": "79.146.16.166",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0",
+      "username": "jmcarbo@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T08:09:28+01:00",
+      "submit": true,
+      "username": "xriera@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "212.170.118.20",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "212.170.118.20",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36",
+      "username": "xriera@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:00:37+01:00",
+      "submit": true,
+      "username": "mhidalgo@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Madrid",
+      "userAgent": "Mozilla/5.0 (Windows NT 5.1; rv:52.0) Gecko/20100101 Firefox/52.0",
+      "username": "mhidalgo@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  },
+  {
+    "data": {
+      "controlPresencia": "entrada",
+      "dateTime2": "2019-02-21T07:49:11+01:00",
+      "submit": true,
+      "username": "pbarbas@imim.es"
+    },
+    "metadata": {
+      "browserName": "Netscape",
+      "offset": 60,
+      "onLine": true,
+      "pathName": "/formfill/CP/controlpresencia.form",
+      "realip": "10.201.254.254",
+      "referrer": "https://folduka.imim.science/login?path=/formfill/CP/controlpresencia.form",
+      "remoteip": "10.201.254.254",
+      "timezone": "Europe/Berlin",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36",
+      "username": "pbarbas@imim.es"
+    },
+    "saved": false,
+    "state": "submitted"
+  }
+]

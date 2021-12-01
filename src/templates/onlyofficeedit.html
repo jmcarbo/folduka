@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+	<head>
+		<title>ONLYOFFICE Api Documentation</title>
+	</head>
+	<body style="height: 100%; margin: 0;">
+		<div id="placeholder" style="height: 100%"></div>
+	<script type="text/javascript" src="{{.onlyofficeserver}}/web-apps/apps/api/documents/api.js"></script>
+
+		<script type="text/javascript">
+
+			window.docEditor = new DocsAPI.DocEditor("placeholder",
+				{
+					"document": {
+						"fileType": "{{.filetype}}",
+						"key": "{{.onlyofficetoken}}",
+						"title": "{{.filename}}",
+						"url": "{{.servername}}/{{.fullpath}}?token={{.onlyofficetoken}}"
+					},
+					"documentType": "{{.documetType}}",
+					"editorConfig": {
+						"callbackUrl": "{{.servername}}/onlyofficesave/{{.fullpath}}?token={{.onlyofficetoken}}"
+					},
+					"height": "100%",
+					"width": "100%"
+				});
+
+		</script>
+	</body>
+</html>

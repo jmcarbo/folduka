@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Jsoneditor</title>
+		<script src="https://cdn.jsdelivr.net/npm/@json-editor/json-editor@latest/dist/jsoneditor.min.js"></script>
+	</head>
+	<body>
+		<button onclick="bla();">bla </button>
+		<div id="editor_holder">
+			
+		</div>
+		<script charset="utf-8">
+			var element = document.getElementById('editor_holder');
+			var editor = new JSONEditor(element, {
+				theme: 'html',
+				schema: {}
+			});
+
+			function bla() {
+				console.log(editor);
+			}
+		</script>
+	</body>
+</html>

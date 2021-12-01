@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: onlyoffice
+  namespace: folduka
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: onlyoffice
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: onlyoffice
+    spec:
+      containers:
+      - image: onlyoffice/documentserver 
+        #imagePullPolicy: Always
+        name: onlyoffice
+        ports:
+        - containerPort: 80
+        resources: {}
+        env:
+        - name: TZ
+          value: Europe/Madrid
+        #securityContext:
+        #  allowPrivilegeEscalation: false
+        #  capabilities: {}
+        #  privileged: false
+        #  readOnlyRootFilesystem: false
+        #  runAsNonRoot: false
+        #stdin: true
+        #terminationMessagePath: /dev/termination-log
+        #terminationMessagePolicy: File
+        #tty: true
+      restartPolicy: Always
+      securityContext: {}
+      terminationGracePeriodSeconds: 30

@@ -1,0 +1,160 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: fpdfform
+  namespace: infrastructure
+spec:
+  accessModes:
+  - ReadWriteOnce
+  - ReadWriteMany
+  capacity:
+    storage: 20Gi
+  storageClassName: ""
+  nfs: 
+    path: /volume1/docker/pdfform3/forms
+    server: 10.17.1.10
+  persistentVolumeReclaimPolicy: Retain 
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: fpdfform
+  namespace: infrastructure 
+spec:
+  accessModes:
+  - ReadWriteOnce
+  - ReadWriteMany
+  resources:
+    requests:
+      storage: 20Gi
+  storageClassName: ""
+  volumeName: fpdfform
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: fcontroluka
+  namespace: infrastructure
+spec:
+  accessModes:
+  - ReadWriteOnce
+  - ReadWriteMany
+  capacity:
+    storage: 20Gi
+  storageClassName: ""
+  nfs: 
+    path: /volume1/docker/controluka
+    server: 10.17.1.10
+  persistentVolumeReclaimPolicy: Retain 
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: fcontrolukadata
+  namespace: infrastructure 
+spec:
+  accessModes:
+  - ReadWriteOnce
+  - ReadWriteMany
+  resources:
+    requests:
+      storage: 20Gi
+  storageClassName: ""
+  volumeName: fcontroluka
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: foldukaconfig
+  namespace: infrastructure
+spec:
+  accessModes:
+  - ReadWriteOnce
+  - ReadWriteMany
+  capacity:
+    storage: 20Gi
+  storageClassName: ""
+  nfs: 
+    path: /volume1/docker/foldukaconfig
+    server: 10.17.1.10
+  persistentVolumeReclaimPolicy: Retain
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: foldukaconfig
+  namespace: infrastructure 
+spec:
+  accessModes:
+  - ReadWriteOnce
+  - ReadWriteMany
+  resources:
+    requests:
+      storage: 20Gi
+  storageClassName: ""
+  volumeName: foldukaconfig
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: foldukausers
+  namespace: infrastructure
+spec:
+  accessModes:
+  - ReadWriteOnce
+  - ReadWriteMany
+  capacity:
+    storage: 20Gi
+  storageClassName: ""
+  nfs: 
+    path: /volume1/docker/foldukausers
+    server: 10.17.1.10
+  persistentVolumeReclaimPolicy: Retain
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: foldukausers
+  namespace: infrastructure 
+spec:
+  accessModes:
+  - ReadWriteOnce
+  - ReadWriteMany
+  resources:
+    requests:
+      storage: 20Gi
+  storageClassName: ""
+  volumeName: foldukausers
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: foldukafiles2
+  namespace: infrastructure
+spec:
+  accessModes:
+  - ReadWriteOnce
+  - ReadWriteMany
+  capacity:
+    storage: 20Gi
+  storageClassName: ""
+  nfs: 
+    path: /volume1/docker/folduka
+    server: 10.17.1.10
+  persistentVolumeReclaimPolicy: Retain
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: foldukafiles2
+  namespace: infrastructure 
+spec:
+  accessModes:
+  - ReadWriteOnce
+  - ReadWriteMany
+  resources:
+    requests:
+      storage: 20Gi
+  storageClassName: ""
+  volumeName: foldukafiles2
+---

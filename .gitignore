@@ -1,0 +1,10 @@
+uploads/*
+cache/*
+files/*
+users/*
+imap/*
+signpdf/afort*
+bla.pdf
+tmp/*
+tmp2/*
+.DS_Store*

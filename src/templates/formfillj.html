@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<link rel='stylesheet' href='/css/bootstrap.min.css'>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel='stylesheet' href='/css/open-iconic-bootstrap.min.css'>
+	</head>
+	<body>
+		<div class="container">
+		<div id='formio'></div>
+		<hr>
+		</div>
+		<button onclick="getValues()">Save</button>
+	<script src='/js/jquery-3.3.1.min.js'></script>
+	<script src='/js/jsoneditor.min.js'></script>
+	<script src='/js/moment.js'></script>
+		<script type='text/javascript'>
+			$(document).ready(function() {
+			  var element = document.getElementById('formio');
+			  editor = new JSONEditor(element, {
+				"theme": "bootstrap4",
+				"schema": {{jsSave .Components}},
+				  "startval": {{ jsSave .Values }}
+				});
+			});
+			function getValues() {
+				console.log(JSON.stringify(editor.getValue()));
+			$.ajax({
+			type: "POST",
+			{{ if .rootTag }}
+			url: '/formfill/{{.Path}}?root-tag={{.rootTag}}',
+			{{ else }}
+			url: '/formfill/{{.Path}}',
+			{{ end }}
+			beforeSend: function(request) {
+				request.setRequestHeader("X-CSRF-Token", "{{.CSRFToken}}");
+			},
+			data: JSON.stringify(editor.getValue()),
+			success: function( data, textStatus, jQxhr ){
+			        console.log( JSON.stringify( data ) );
+			},
+			error: function( jqXhr, textStatus, errorThrown ){
+			        console.log( errorThrown );
+			},
+			//dataType: 'application/json' 
+			dataType: 'text'
+			}).then(response => {
+				          //form.emit('submitDone', submission)
+				          //response.json()
+			});
+			}
+		</script>
+	</body>
+</html>

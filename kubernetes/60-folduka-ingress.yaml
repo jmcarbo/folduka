@@ -1,0 +1,25 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: folduka
+  namespace: infrastructure
+  annotations:
+    kubernetes.io/ingress.class: traefik
+spec:
+  rules:
+  - host: folduka.imim.science
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: folduka
+          servicePort: web
+  - host: onlyoffice.prod03.imim.science
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: onlyoffice
+          servicePort: web
+  tls:
+    - secretName: imimscience
