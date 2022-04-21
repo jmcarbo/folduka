@@ -1,0 +1,39 @@
+{
+	"secure": false,
+	"certificate": "config/certificates/joanmarc.cat.crt",
+	"privatekey": "config/certificates/joanmarc.cat.key",
+	"webserver": "0.0.0.0:8080",
+	"buckets": [
+		"ceim",
+		"config",
+		"files",
+		"imap"
+	],
+	"default_bucket": "files",
+	"ceim": {
+		"class": "webdav",
+		"host": "folder.imim.es:22",
+		"user": "jmcarbo@imim.es",
+		"password": "blusky",
+		"root": "https://folder.imim.es:9909/CEIM",
+		"name": "CEIm"
+	},
+	"config": {
+		"class": "local",
+		"root": "./config",
+		"name": "Configuration"
+	},
+	"files": {
+		"class": "local",
+		"root": "./files",
+		"name": "Fundació IMIM"
+	},
+	"imap": {
+		"class": "imap",
+		"root": "./imap",
+		"name": "JMCAImap",
+		"host": "hermes4.imim.es:993",
+		"user": "imim/jmcarbo",
+		"password": "t0kKKZgN5i"
+	}
+}

@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<link rel='stylesheet' href='/css/bootstrap.3.min.css'>
+		<link rel='stylesheet' href='/css/bootstrap-theme.3.min.css'>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+		<link rel='stylesheet' href='/css/open-iconic-bootstrap.min.css'>
+		<link rel='stylesheet' href='/css/formio.full.min.css'>
+		<script src='/js/formio.full.min.js'></script>
+		<!--
+		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+		<link rel='stylesheet' href='/css/formio.full.min.css'>
+		<script src='/js/formio.full.js'></script>
+		-->
+		<script type='text/javascript'>
+			window.onload = function() {
+				let formioComponents;
+				builder = new Formio.builder(document.getElementById('builder'), 
+					{{jsSave .Components}} 
+				).then(function(instance) {     
+				bla = instance;
+		     	     instance.on('change', function(form) {
+						            if (form.components) {
+								              console.log(JSON.stringify(form, null, 4));
+								           }
+						          });
+				});
+
+			};
+		</script>
+	</head>
+	<body>
+		<div class="container">
+		<div id='builder'></div>
+		<hr>
+		<button class="btn btn-default" onclick="myfunction();">Save form</button>
+		</div>
+	<script src='/js/jquery-3.3.1.min.js'></script>
+	<script src='/js/moment.js'></script>
+	<script>
+		function myfunction() {
+			// Note: cache should not be re-used by repeated calls to JSON.stringify.
+			var cache = [];
+			blastr=JSON.stringify(bla.form, function(key, value) {
+				    if (typeof value === 'object' && value !== null) {
+					            if (cache.indexOf(value) !== -1) {
+							                // Duplicate reference found
+							                try {
+										                // If this value does not reference a parent it can be deduped
+										                return JSON.parse(JSON.stringify(value));
+										            } catch (error) {
+												                    // discard key if value cannot be deduped
+												                    return;
+												                }
+							            }
+					            // Store value in our collection
+					            cache.push(value);
+					        }
+				    return value;
+			});
+			cache = null; // Enable garbage collection
+			console.log(blastr);
+			$.ajax({
+				  type: "POST",
+				url: '/form/{{.Path}}',
+				  beforeSend: function(request) {
+					      request.setRequestHeader("X-CSRF-Token", "{{.CSRFToken}}");
+					    },
+				  data: blastr,
+				success: function( data, textStatus, jQxhr ){
+					        console.log( JSON.stringify( data ) );
+					    },
+				    error: function( jqXhr, textStatus, errorThrown ){
+					            console.log( errorThrown );
+					        },
+				  dataType: 'application/json' 
+			});
+		}
+	</script>
+	</body>
+</html>

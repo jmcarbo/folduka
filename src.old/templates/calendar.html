@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Grid</title>
+		<link rel="stylesheet" type="text/css" href="https://uicdn.toast.com/tui-calendar/latest/tui-calendar.css" />
+	</head>
+	<body>
+		<button onclick="save()">Saveº</button>
+		<div id="calendar" style="height: 800px;"></div>
+
+
+		<script src='/js/jquery-3.3.1.min.js'></script>
+		<script src="https://uicdn.toast.com/tui.code-snippet/latest/tui-code-snippet.js"></script>
+		<script type="text/javascript" src="https://uicdn.toast.com/tui.time-picker/latest/tui-time-picker.min.js"></script>
+		<script type="text/javascript" src="https://uicdn.toast.com/tui.date-picker/latest/tui-date-picker.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/chance/1.0.13/chance.min.js"></script>
+		<script src="https://uicdn.toast.com/tui-calendar/latest/tui-calendar.js"></script>
+
+		<script charset="utf-8">
+
+
+		var calendar = new tui.Calendar('#calendar', {
+		  defaultView: 'month',
+		  taskView: true,
+		  useCreationPopup: true,
+	          useDetailPopup: true,
+		  template: {
+		    monthGridHeader: function(model) {
+		     var date = new Date(model.date);
+		     var template = '<span class="tui-full-calendar-weekday-grid-date">' + date.getDate() + '</span>';
+		        return template;
+		    }
+		  }
+		 });
+
+
+	    function save() {
+	    console.log(JSON.stringify(instance.getRows()));
+			$.ajax({
+			type: "POST",
+			{{ if .rootTag }}
+			url: '/formfill/{{.Path}}?root-tag={{.rootTag}}',
+			{{ else }}
+			url: '/formfill/{{.Path}}',
+			{{ end }}
+			beforeSend: function(request) {
+				request.setRequestHeader("X-CSRF-Token", "{{.CSRFToken}}");
+			},
+			data: JSON.stringify(instance.getRows()),
+			success: function( data, textStatus, jQxhr ){
+			        console.log( JSON.stringify( data ) );
+			},
+			error: function( jqXhr, textStatus, errorThrown ){
+			        console.log( errorThrown );
+			},
+			//dataType: 'application/json' 
+			dataType: 'text'
+			}).then(response => {
+				          //form.emit('submitDone', submission)
+				          //response.json()
+			});
+	    }
+		</script>
+	</body>
+</html>
+

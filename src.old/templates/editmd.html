@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Editmd</title>
+		<link rel="stylesheet" href="https://uicdn.toast.com/tui-editor/latest/tui-editor.css"></link>
+
+		<link rel="stylesheet" href="https://uicdn.toast.com/tui-editor/latest/tui-editor-contents.css"></link>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.39.2/codemirror.css"></link>
+
+		<script src="https://uicdn.toast.com/tui-editor/latest/tui-editor-Editor-full.js"></script>
+	</head>
+	<body>
+		<button onclick="save()">Save</button>
+		<div id="editSection"></div>
+		<script src='/js/jquery-3.3.1.min.js'></script>
+		<script charset="utf-8">
+		var initialt = `{{.content}}`;
+		var editor = new tui.Editor({
+		el: document.querySelector('#editSection'),
+		initialEditType: 'markdown',
+		previewStyle: 'vertical',
+		height: '600px',
+		initialValue: initialt,
+		exts: ['scrollSync']
+		});
+			function save() {
+			$.ajax({
+				type: "POST",
+				url: '/edit/{{.Path}}',
+				beforeSend: function(request) {
+					request.setRequestHeader("X-CSRF-Token", "{{.CSRFToken}}");
+				},
+				data: editor.getValue(),
+				success: function( data, textStatus, jQxhr ){
+			        	console.log(data);
+				},
+				error: function( jqXhr, textStatus, errorThrown ){
+			        	console.log( errorThrown );
+				},
+			//dataType: 'application/json' 
+				dataType: 'text'
+			}).then(function(response) {
+				          //response.json()
+				});
+			}
+		</script>
+	</body>
+</html>
+

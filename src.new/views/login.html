@@ -1,0 +1,14 @@
+<div class="w-full max-w-xs mx-auto my-8">
+	<form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" action="/login" method="post">
+		{{inputs_for .login}}
+		<input type="hidden" name="csrf" value="{{ .csrf }}">
+		<div class="flex items-center justify-between">
+			<button class="bg-blue-600 hover:bg-blue-dark text-white font-bold py-2 px-4 rounded" type="submit">
+				Validar credencials
+			</button>
+		</div>
+	</form>
+	<p class="text-center text-grey text-xs">
+		&copy; 2021 Fundació IMIM. Tots els drets reservats.
+	</p>
+</div>

@@ -1,0 +1,10 @@
+[
+  { "PType": "p", "V0": "users", "V1": "G.*", "V2": "read", "V3": "allow"},
+  { "PType": "p", "V0": "users", "V1": "E.*", "V2": "read", "V3": "allow"},
+  { "PType": "p", "V0": "users", "V1": ".*", "V2": "read", "V3": "allow"},
+  { "PType": "p", "V0": "jmcarbo@imim.es", "V1": "config/.*", "V2": "read", "V3": "allow"},
+  { "PType": "p", "V0": "jmcarbo@imim.es", "V1": "users/.*", "V2": "read", "V3": "allow"},
+  { "PType": "p", "V0": "admins", "V1": ".*", "V2": "write", "V3": "allow" },
+  { "PType": "p", "V0": "admins", "V1": ".*", "V2": "read", "V3": "allow" },
+  { "PType": "g", "V0": "jmcarbo@imim.es", "V1": "admins", "V3": "allow" }
+]

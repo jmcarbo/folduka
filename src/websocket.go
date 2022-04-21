@@ -2,8 +2,8 @@ package main
 
 import (
   "fmt"
-  "github.com/kataras/iris"
-  "github.com/kataras/iris/websocket"
+  "github.com/kataras/iris/v12"
+  "github.com/kataras/iris/v12/websocket"
   "sync"
 )
 

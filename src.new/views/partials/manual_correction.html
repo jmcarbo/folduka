@@ -1,0 +1,78 @@
+{{define "manualCorrection" }}
+<div id={{.ManualID}} class="modal is-active">
+<div class="modal-background"></div>
+<div class="modal-card">
+<header class="modal-card-header">
+  <button live-click="close-message" class="delete" aria-label="close"></button>
+</header>
+<section class="modal-card-body">
+  <div class="block">
+  Correcció manual pel dia: <b>{{.ManualID}}</b>
+  </div>
+          <form id="manual" live-submit="manual-correction" method="POST" autocomplete="off">
+          <input type="hidden" name="iday" value="{{.ManualID}}"/>
+          <fieldset class="box">
+            <legend class="label has-text-centered">Presencial</legend>
+          <div class="field is-horizontal">
+              <div class="field-label">
+              <label class="label is-small">Hores: </label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <div class="control">
+                  <input type="number" name="hores" max="8" min="0" step="1" class="input is-small" value="0"/>
+                  </div>
+                </div>
+              </div>
+              <div class="field-label">
+                  <label class="label is-small">Minuts: </label>
+              </div>
+              <div class="field-body">
+                <div class=field>
+                  <div class="control">
+                  <input type="number" name="minuts"  max="50" min="0" step="1" class="input is-small" value="0"/>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </fieldset>
+
+          <fieldset class="box">
+            <legend class="label has-text-centered">Teletreball</legend>
+          <div class="field is-horizontal">
+              <div class="field-label">
+              <label class="label is-small">Hores: </label>
+              </div>
+              <div class="field-body">
+                <div class="field">
+                  <div class="control">
+                  <input type="number" name="horest"  max="8" min="0" step="1" class="input is-small" value="0"/>
+                  </div>
+                </div>
+              </div>
+              <div class="field-label">
+                  <label class="label is-small">Minuts: </label>
+              </div>
+              <div class="field-body">
+                <div class=field>
+                  <div class="control">
+                  <input type="number" name="minutst"  max="59" min="0" step="1" class="input is-small" value="0"/>
+                  </div>
+                </div>
+              </div>
+          </div>
+          </fieldset>
+                <div class="field">
+                  <div class="control">
+                  <input type="submit" name="manual-correction" class="button is-small is-primary" value="Modificar"/>
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="control">
+                  <input type="submit" name="delete-manual-correction" class="button is-small is-danger" value="Esborrar marcatge manual"/>
+                  </div>
+                </div>
+          </form>
+</section>
+</div>
+{{end}}

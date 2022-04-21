@@ -18,7 +18,7 @@ import (
   "path"
   "path/filepath"
   "encoding/json"
-  "github.com/kataras/iris"
+  "github.com/kataras/iris/v12"
 )
 
 type Backend struct{}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>{{ .stream.data.name }}</title>
+<meta charset="utf-8">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+<!-- CSS Base -->
+<link rel="stylesheet" type='text/css' media='all' href="/css/webslides.css">
+
+<!-- Optional - CSS SVG Icons (Font Awesome) -->
+<link rel="stylesheet" type="text/css" media="all" href="/css/svg-icons.css">
+		       
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<!--<link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+
+<script src="https://vjs.zencdn.net/ie8/ie8-version/videojs-ie8.min.js"></script>
+-->
+<style type="text/css" media="screen">
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.iframe-container {
+	overflow: hidden;
+	padding-top: 56.25%;
+	position: relative;
+} 
+
+.iframe-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+	width: 100%;
+	height: 100%;
+}
+</style>
+</head>
+<!-- <body style="background-color: black;">-->
+<body>
+<!--<div class="w3-content w3-section" style="max-width:500px">-->
+
+<article id="webslides">
+{{ range $index, $value := .items }}
+
+{{ if (or (eq $value.Type "youtube") (eq $value.Type "video") (eq $value.Type "frame")) }}
+<section class="fullscreen slide-bottom bg-black" data-duration="{{$value.Duration}}">
+{{else}}
+<section class="bg-black slide-bottom {{$value.Transition}}" data-duration="{{$value.Duration}}">
+{{end}}
+
+{{ if eq $value.Type "image" }}
+<span class="background bg-black" style="background-image:url('{{$value.Location}}')"></span>
+<div class="wrap">
+{{htmlSafe $value.Contents}}
+</div>
+{{end }}
+{{ if eq $value.Type "youtube" }}
+<div class="embed {{$value.Transition}}">
+	<div data-youtube data-youtube-id="{{$value.Location}}" data-autoplay data-loop data-no-controls></div>
+</div>
+<div class="wrap">
+{{htmlSafe $value.Contents}}
+</div>
+<!--
+<video
+  id="vid{{$index}}"
+    class="video-js vjs-default-skin mySlides"
+    loop
+    muted
+    autoplay
+    preload="auto"
+    width="1024"  height="800"
+  data-setup='{ "fluid": true, "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "{{$value.Location}}"}] }'  data-duration="{{$value.Duration}}"></video>
+-->
+{{end }}
+
+{{ if eq $value.Type "video" }}
+<div class="embed {{$value.Transition}}">
+	<video autoplay muted loop poster="">
+		<source src="{{$value.Location}}" type="video/mp4">
+	</video>
+</div>
+<div class="wrap">
+{{htmlSafe $value.Contents}}
+</div>
+<!--
+<video
+  id="vid{{$index}}"
+    class="video-js vjs-default-skin mySlides"
+    loop
+    muted
+    autoplay
+    preload="auto"
+  data-setup='{ "fluid": true }'  data-duration="{{$value.Duration}}">
+	<source src='{{$value.Location}}' type='video/mp4'>
+</video>
+-->
+{{end }}
+{{ if eq $value.Type "frame" }}
+<div class="embed">
+<iframe src="{{$value.Location}}"  ></iframe>
+</div>
+ <div class="wrap">
+{{ htmlSafe $value.Contents}}
+</div>
+{{end }}
+{{ if eq $value.Type "html" }}
+ <div class="wrap">
+{{ htmlSafe $value.Contents}}
+</div>
+{{end }}
+</section>
+{{ end }}
+</article>
+<!--
+ <audio loop autoplay>
+  <source src="sound.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio> 
+-->
+
+  <script src='https://vjs.zencdn.net/7.4.1/video.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.0/Youtube.min.js'></script>
+
+	<!-- Required -->
+	<script src="/js/webslides.js"></script>
+
+	<!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+	<script defer src="/js/svg-icons.js"></script>
+<script>
+var start = 1;
+var myIndex = 0;
+window.ws = new WebSlides({ loop: true });
+
+carousel();
+
+function carousel() {
+  var i;
+  //var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementById("webslides").getElementsByTagName("section");
+
+  //for (i = 0; i < x.length; i++) {
+  //  x[i].style.display = "none";  
+  //}
+  var url = window.location.href, idx = url.indexOf("#slide=")
+  var hash = idx != -1 ? url.substring(idx+7) : "1";
+  myIndex=parseInt(hash);
+	console.log(hash);
+  //if (myIndex > x.length) {myIndex = 1}    
+  //x[myIndex-1].style.display = "block";  
+  if (isNaN(myIndex)) {
+	  myIndex = 1;
+  }
+  if (start == 1) {
+	  start = 0;
+  } else {
+  	window.ws.goNext();
+  }
+  console.log("myIndex: ");
+  console.log(myIndex);
+  duration = parseInt(x[0].getAttribute("data-duration"));
+	console.log(duration);
+	if (isNaN(duration)) {
+  		setTimeout(carousel, 10000);    
+	} else {
+  		setTimeout(carousel, duration*1000);    
+	}
+}
+</script>
+<!--
+<input id="input" type="text" />
+<button onclick="send()">Send</button>
+-->
+
+<!-- import the iris client-side library for browser-->
+<script src="/iris-ws.js"></script>
+
+<script>
+var scheme = document.location.protocol == "https:" ? "wss" : "ws";
+var port = document.location.port ? (":" + document.location.port) : "";
+// see app.Get("/echo", ws.Handler()) on main.go
+var wsURL = scheme + "://" + document.location.hostname + port+"/echo";
+
+var input = document.getElementById("input");
+var output = document.getElementById("output");
+
+function connect() {
+	var socket = new Ws(wsURL)
+	socket.OnConnect(function () {
+		//output.innerHTML += "Status: Connected\n";
+		//socket.Emit("properties", window.location.pathname); // send chat event data to the websocket server
+		socket.Emit("properties", "{{.stream.data.name}}"); // send chat event data to the websocket server
+	});
+
+	socket.OnDisconnect(function () {
+		//output.innerHTML += "Status: Disconnected\n";
+	    console.log('Socket is closed. Reconnect will be attempted in 1 second.');
+	      setTimeout(function() {
+		    connect();
+		  }, 1000);
+	});
+
+	// read events from the server
+	socket.On("chat", function (msg) {
+		addMessage(msg);
+		console.log(msg);
+	});
+
+	socket.On("reload", function (msg) {
+		location.reload(); 
+	});
+
+}
+
+connect();
+// Ws comes from the auto-served '/iris-ws.js'
+
+function send() {
+	addMessage("Me: " + input.value); // write ourselves
+	socket.Emit("chat", input.value); // send chat event data to the websocket server
+	input.value = ""; // clear the input
+}
+
+function addMessage(msg) {
+	output.innerHTML = msg + "\n";
+}
+	</script>
+
+</body>
+</html>

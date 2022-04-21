@@ -17,12 +17,13 @@ import (
   "strings"
   "path/filepath"
   "text/template"
-  "github.com/kataras/iris"
+  "github.com/kataras/iris/v12"
   "github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
   "github.com/pdfcpu/pdfcpu/pkg/api"
   "strconv"
   "github.com/Masterminds/sprig"
-  "github.com/rylio/ytdl"
+  //"github.com/rylio/ytdl"
+  "github.com/Andreychik32/ytdl"
 )
 
 type Parameter struct {

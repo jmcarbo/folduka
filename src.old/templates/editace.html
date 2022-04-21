@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>ACE in Action</title>
+		<style type="text/css" media="screen">
+#editor { 
+	position: absolute;
+	top: 5%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+		</style>
+	</head>
+	<body>
+		<button onclick="save()">Save</button>
+		<button onclick="reformat()">Reformat</button>
+<div id="editor" >
+{{.content}}
+</div>
+
+		<script src="/acejs/ace.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/acejs/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/acejs/ext-beautify.js" type="text/javascript" charset="utf-8"></script>
+		<script src='/js/jquery-3.3.1.min.js'></script>
+		<script>
+			var editor = ace.edit("editor");
+editor.setTheme("ace/theme/monokai");
+editor.session.setMode("{{.Mode}}");
+/*
+editor.setOptions({
+	    maxLines: 200 
+});
+*/
+			function reformat() {
+				var beautify = ace.require("ace/ext/beautify"); // get reference to extension
+				var editor = ace.edit("editor"); // get reference to editor
+				beautify.beautify(editor.session);
+			}
+			function save() {
+			$.ajax({
+				type: "POST",
+				url: '/edit/{{.Path}}',
+				beforeSend: function(request) {
+					request.setRequestHeader("X-CSRF-Token", "{{.CSRFToken}}");
+				},
+				data: editor.getValue(),
+				success: function( data, textStatus, jQxhr ){
+			        	console.log(data);
+				},
+				error: function( jqXhr, textStatus, errorThrown ){
+			        	console.log( errorThrown );
+				},
+			//dataType: 'application/json' 
+				dataType: 'text'
+			}).then(function(response) {
+				          //response.json()
+				});
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,155 @@
+<form id="filter" method="POST" autocomplete="off" x-data="{ targetDate: '', targetOnSite: '', targetWeb: ''}">
+	<input type="hidden" name="csrf" value="{{ .csrf }}">
+	<input type="hidden" name="targetDate" x-model="targetDate">
+	<input type="hidden" name="targetOnSite" x-model="targetOnSite">
+	<input type="hidden" name="targetWeb" x-model="targetWeb">
+		<div class="md:flex md:flex-col p-4">
+			<div class="grid md:grid-cols-5 gap-2">
+				<!-- Left column -->
+				<div class="md:col-span-2">
+					<div class="">
+						Empleat: <b>{{ .email }}</b>
+					</div>
+					<div class="">
+						<div class="grid md:grid-cols-5 pt-2 gap-2">
+							<div class="border rounded p-1">
+								<p class="text-center">
+								<span class="text-gray-500 text-sm">Presencials</span>
+								</p>
+								<p class="text-center">
+								<span class="font-bold">{{.Summary.OnSite |printf "%.1f"}}</span>
+								</p>
+							</div>
+							<div class="border rounded p-1">
+								<p class="text-center">
+								<span class="text-gray-500 text-sm">Teletreball</span>
+								</p>
+								<p class="text-center">
+								<span class="font-bold">{{.Summary.Web |printf "%.1f"}}</span>
+								</p>
+							</div>
+							<div class="border rounded p-1">
+								<p class="text-center">
+								<span class="text-gray-500 text-sm">Ajustos</span>
+								</p>
+								<p class="text-center">
+								<span class="font-bold">{{.Summary.Adjustments |printf "%.1f"}}</span>
+								</p>
+							</div>
+							<div class="border rounded p-1">
+								<p class="text-center">
+								<span class="text-gray-500 text-sm">Total</span>
+								</p>
+								<p class="text-center">
+								<span class="font-bold">{{.Summary.Total |printf "%.1f"}}</span>
+								</p>
+							</div>
+							<div class="border rounded p-1">
+								<p class="text-center">
+								<span class="text-gray-500 text-sm">Objectiu hores</span>
+								</p>
+								<p class="text-center">
+								<span class="font-bold">{{.Summary.TargetHours |printf "%.1f"}}</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="mt-4">
+						<button class="rounded bg-red-600 text-white px-4 py-2 font-bold" name="submit" value="logout">Sortir</button>
+					</div>
+				</div>
+				<!-- Right column -->
+				<div class="md:col-span-3">
+					<div class="grid md:grid-cols-6 gap-2">
+						<div class="">
+							<div class="flex flex-row content-center">
+								<div>
+									<p>
+							{{ if (eq .Summary.NextAction "entry" ) }}
+							<button class="rounded bg-green-600 text-white px-4 py-2 font-bold mt-4" value="entry" name="submit">Iniciar teletreball</button>
+							{{ else }}
+							<button class="rounded bg-green-600 text-white px-4 py-2 font-bold mt-4" value="exit" name="submit">Finalitzar teletreball</button>
+							{{end}}
+									</p>
+								</div>
+							</div>
+						</div>
+								<div class="border rounded p-1">
+									<p class="text-center">
+									<span class="text-gray-500 text-sm">Dia</span>
+									</p>
+									<p class="text-center">
+									<span class="font-bold">{{ .Summary.Day }}</span>
+									</p>
+								</div>
+								<div class="border rounded p-1">
+									<p class="text-center">
+									<span class="text-gray-500 text-sm">Hora</span>
+									</p>
+									<p class="text-center">
+									<span class="font-bold">{{ .Summary.Clock }}</span>
+									</p>
+								</div>
+								<div class="border rounded p-1">
+									<p class="text-center">
+									<span class="text-gray-500 text-sm">Presencials</span>
+									</p>
+									<p class="text-center">
+									<span class="font-bold">{{.Summary.TodayOnSite|printf "%.1f"}}</span>
+									</p>
+								</div>
+								<div class="border rounded p-1">
+									<p class="text-center">
+									<span class="text-gray-500 text-sm">Teletreball</span>
+									</p>
+									<p class="text-center">
+									<span class="font-bold">{{.Summary.TodayWeb|printf "%.1f"}}</span>
+									</p>
+								</div>
+								<div class="border rounded p-1">
+									<p class="text-center">
+									<span class="text-gray-500 text-sm">Total</span>
+									</p>
+									<p class="text-center">
+									<span class="font-bold">{{.Summary.TodayTotal|printf "%.1f"}}</span>
+									</p>
+								</div>
+					</div>
+					<div class="flex flex-col">
+						<div class="max-h-56">
+							{{.Summary.TimelineToday}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="flex flex-col m-4">
+			<div class="md:flex md:flex-row">
+				<div class="w-1/2 text-grey-darker text-xl font-bold mb-2">
+					Resum activitat laboral
+				</div>
+				<div class="md:w-auto">
+					<div class="flex flex-row">
+						<div>
+							<label class="text-grey-darker text-sm font-bold mb-2">Inici</label>
+							<input type="date" name="start_date" class="shadow appearance-none border rounded py-2 px-3 text-grey-darker leading-tight ml-1 mr-3" value="{{.Summary.StartDate}}">
+						</div>
+						<div>
+							<label class="text-grey-darker text-sm font-bold mb-2">Fi</label>
+							<input type="date" name="end_date" class="shadow appearance-none border rounded py-2 px-3 text-grey-darker leading-tight ml-1 mr-3" value="{{.Summary.EndDate}}">
+						</div>
+						<div class="items-center justify-between">
+							<button class="bg-blue-600 hover:bg-blue-dark text-white font-bold py-2 px-4 rounded" type="submit">
+								Filtrar
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="" id="Summary">
+				{{ .Summary.Summary}}
+			</div>
+		</div>
+</form>
