@@ -2,7 +2,7 @@ package main
 
 import (
   "fmt"
-  "github.com/kataras/iris"
+  "github.com/kataras/iris/v12"
   "io/ioutil"
   "path/filepath"
   "bytes"

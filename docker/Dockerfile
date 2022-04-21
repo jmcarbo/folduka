@@ -1,7 +1,7 @@
-FROM golang:1.15 as build
+FROM golang:1.18 as build
 COPY . /folduka
 WORKDIR /folduka
-RUN  CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -tags netgo -ldflags '-w -extldflags "-static"' -o folduka main.go actions.go login.go display.go workflow.go download.go sign.go signage.go smtp.go utils.go websocket.go template.go database.go queue.go
+RUN  go build -o folduka main.go actions.go login.go display.go workflow.go download.go sign.go signage.go smtp.go utils.go websocket.go template.go database.go queue.go
 
 FROM alpine:3.12 as downloads
 ADD https://github.com/hairyhenderson/gomplate/releases/download/v3.8.0/gomplate_linux-amd64-slim /gomplate

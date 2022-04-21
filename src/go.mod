@@ -22,7 +22,7 @@ require (
 	github.com/iris-contrib/middleware/csrf v0.0.0-20220417122231-60b1fdb1e02b
 	github.com/jhillyerd/enmime v0.9.3
 	github.com/jordan-wright/email v4.0.1-0.20210109023952-943e75fe5223+incompatible
-	github.com/kataras/iris v0.0.2
+	github.com/kataras/iris/v12 v12.2.0-alpha9
 	github.com/lalamove/konfig v0.8.3
 	github.com/lib/pq v1.10.5
 	github.com/looplab/fsm v0.3.0
@@ -42,7 +42,6 @@ require (
 require (
 	github.com/BurntSushi/toml v1.0.0 // indirect
 	github.com/CloudyKit/fastprinter v0.0.0-20200109182630-33d98a066a53 // indirect
-	github.com/CloudyKit/jet/v4 v4.1.0 // indirect
 	github.com/CloudyKit/jet/v6 v6.1.0 // indirect
 	github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
@@ -82,7 +81,6 @@ require (
 	github.com/imdario/mergo v0.3.7 // indirect
 	github.com/iris-contrib/go.uuid v2.0.0+incompatible // indirect
 	github.com/iris-contrib/jade v1.1.4 // indirect
-	github.com/iris-contrib/pongo2 v0.0.1 // indirect
 	github.com/iris-contrib/schema v0.0.6 // indirect
 	github.com/jaytaylor/html2text v0.0.0-20200412013138-3577fbdbcff7 // indirect
 	github.com/jessevdk/go-flags v1.4.0 // indirect
@@ -91,7 +89,6 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kataras/blocks v0.0.5 // indirect
 	github.com/kataras/golog v0.1.7 // indirect
-	github.com/kataras/iris/v12 v12.2.0-alpha9 // indirect
 	github.com/kataras/neffos v0.0.19 // indirect
 	github.com/kataras/pio v0.0.10 // indirect
 	github.com/kataras/sitemap v0.0.5 // indirect
@@ -129,7 +126,6 @@ require (
 	github.com/robertkrimen/otto v0.0.0-20211024170158-b87d35c0b86f // indirect
 	github.com/rs/zerolog v1.19.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
-	github.com/ryanuber/columnize v2.1.0+incompatible // indirect
 	github.com/schollz/closestmatch v2.1.0+incompatible // indirect
 	github.com/shiena/ansicolor v0.0.0-20200904210342-c7312218db18 // indirect
 	github.com/spf13/cast v1.3.0 // indirect
@@ -149,6 +145,8 @@ require (
 	golang.org/x/time v0.0.0-20220224211638-0e9765cccd65 // indirect
 	golang.org/x/tools v0.1.8 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013 // indirect
+	google.golang.org/grpc v1.27.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d // indirect
 	gopkg.in/ini.v1 v1.66.4 // indirect

@@ -17,7 +17,7 @@ import (
   "strings"
   "path/filepath"
   "text/template"
-  "github.com/kataras/iris"
+  "github.com/kataras/iris/v12"
   "github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
   "github.com/pdfcpu/pdfcpu/pkg/api"
   "strconv"

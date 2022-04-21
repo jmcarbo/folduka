@@ -16,7 +16,7 @@ import (
   "github.com/pdfcpu/pdfcpu/pkg/pdfcpu"
   "github.com/pdfcpu/pdfcpu/pkg/api"
   "os/exec"
-  "github.com/kataras/iris"
+  "github.com/kataras/iris/v12"
   "github.com/sethvargo/go-password/password"
 )
 
