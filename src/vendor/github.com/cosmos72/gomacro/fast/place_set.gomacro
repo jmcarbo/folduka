@@ -1,0 +1,261 @@
+/*
+ * gomacro - A Go interpreter with Lisp-like macros
+ *
+ * Copyright (C) 2017-2019 Massimiliano Ghilardi
+ *
+ *     This Source Code Form is subject to the terms of the Mozilla Public
+ *     License, v. 2.0. If a copy of the MPL was not distributed with this
+ *     file, You can obtain one at http://mozilla.org/MPL/2.0/.
+ *
+ *
+ * place_set.go
+ *
+ *  Created on Apr 25, 2017
+ *      Author Massimiliano Ghilardi
+ */
+
+package fast
+
+import (
+	r "reflect"
+
+	. "github.com/cosmos72/gomacro/base"
+	"github.com/cosmos72/gomacro/base/reflect"
+)
+
+:package fast
+
+:import (
+	"go/ast"
+	r "reflect"
+)
+
+:func fsetplace_const(typ ast.Node) ast.Node {
+	// the return type of Eval() and EvalType() varies. better check early.
+	var t r.Type = EvalType(typ)
+
+	var decl, bind, mapbind ast.Node
+
+	if t == nil {
+		decl = ~'{val := v}
+		bind = ~'{lhs(env).Set(val)}
+	} else {
+		switch t.Kind() {
+		case xr.Bool:
+			decl = ~'{val := v.Bool()}
+			bind = ~'{lhs(env).SetBool(val)}
+		case xr.Int, r.Int8, r.Int16, r.Int32, r.Int64:
+			decl = ~'{val := v.Int()}
+			bind = ~'{lhs(env).SetInt(val)}
+		case xr.Uint, r.Uint8, r.Uint16, r.Uint32, r.Uint64, r.Uintptr:
+			decl = ~'{val := v.Uint()}
+			bind = ~'{lhs(env).SetUint(val)}
+		case xr.Float32, r.Float64:
+			decl = ~'{val := v.Float()}
+			bind = ~'{lhs(env).SetFloat(val)}
+		case xr.Complex64, r.Complex128:
+			decl = ~'{val := v.Complex()}
+			bind = ~'{lhs(env).SetComplex(val)}
+		case xr.String:
+			decl = ~'{val := v.String()}
+			bind = ~'{lhs(env).SetString(val)}
+		default:
+			panic("fsetplace_const unimplemented for type " + t.String())
+		}
+	}
+
+	return ~"{
+		~,decl
+		ret = func(env *Env) (Stmt, *Env) {
+			~,bind
+			env.IP++
+			return env.Code[env.IP], env
+		}
+	}
+}
+
+:func fsetplace_expr(typ ast.Node) ast.Node {
+	// the return type of Eval() and EvalType() varies. better check early.
+	var t r.Type = EvalType(typ)
+
+	var decl, bind ast.Node
+
+	if t == nil {
+		decl = ~'{rhs := funAsX1(fun, nil)}
+		bind = ~'{
+			// force left-to-right evaluation order
+			place := lhs(env)
+			value := rhs(env)
+			if !value.IsValid() || value == None {
+				value = zero
+			} else if value.Type() != rt {
+				value = convert(value, rt)
+			}
+			place.Set(value)
+		}
+		return ~"{
+			~,decl
+			zero := xr.Zero(rt)
+			ret = func(env *Env) (Stmt, *Env) {
+				~,@bind
+				env.IP++
+				return env.Code[env.IP], env
+			}
+		}
+	}
+
+	decl = ~"{rhs := fun.(func (*Env) ~,typ)}
+	switch t.Kind() {
+	case xr.Bool:
+		bind = ~'{
+			place := lhs(env)
+			value := rhs(env)
+			place.SetBool(value)
+		}
+	case xr.Int, r.Int8, r.Int16, r.Int32, r.Int64:
+		bind = ~'{
+			place := lhs(env)
+			value := rhs(env)
+			place.SetInt(int64(value))
+		}
+	case xr.Uint, r.Uint8, r.Uint16, r.Uint32, r.Uint64, r.Uintptr:
+		bind = ~'{
+			place := lhs(env)
+			value := rhs(env)
+			place.SetUint(uint64(value))
+		}
+	case xr.Float32, r.Float64:
+		bind = ~'{
+			place := lhs(env)
+			value := rhs(env)
+			place.SetFloat(float64(value))
+		}
+	case xr.Complex64, r.Complex128:
+		bind = ~'{
+			place := lhs(env)
+			value := rhs(env)
+			place.SetComplex(complex128(value))
+		}
+	case xr.String:
+		bind = ~'{
+			place := lhs(env)
+			value := rhs(env)
+			place.SetString(value)
+		}
+	default:
+		panic("fsetplace_expr unimplemented for type " + t.String())
+	}
+	return ~"{
+		~,decl
+		ret = func(env *Env) (Stmt, *Env) {
+			~,@bind
+			env.IP++
+			return env.Code[env.IP], env
+		}
+	}
+}
+
+:macro setplace_const(typ ast.Node) ast.Node {
+	return fsetplace_const(typ)
+}
+
+:macro setplace_expr(typ ast.Node) ast.Node {
+	return fsetplace_expr(typ)
+}
+
+:macro setplaces_const() ast.Node {
+	return ~"{
+		switch reflect.Category(rt.Kind()) {
+		case xr.Bool:       setplace_const; bool
+		case xr.Int:        setplace_const; int
+		case xr.Uint:       setplace_const; uint
+		case xr.Float64:    setplace_const; float64
+		case xr.Complex128: setplace_const; complex128
+		case xr.String:     setplace_const; string
+		default:           setplace_const; nil
+		}
+	}
+}
+
+:macro setplaces_expr() ast.Node {
+	return ~"{
+		switch rt.Kind() {
+		case xr.Bool:       setplace_expr; bool;
+		case xr.Int:        setplace_expr; int;
+		case xr.Int8:       setplace_expr; int8;
+		case xr.Int16:      setplace_expr; int16;
+		case xr.Int32:      setplace_expr; int32;
+		case xr.Int64:      setplace_expr; int64;
+		case xr.Uint:       setplace_expr; uint;
+		case xr.Uint8:      setplace_expr; uint8;
+		case xr.Uint16:     setplace_expr; uint16;
+		case xr.Uint32:     setplace_expr; uint32;
+		case xr.Uint64:     setplace_expr; uint64;
+		case xr.Uintptr:    setplace_expr; uintptr;
+		case xr.Float32:    setplace_expr; float32;
+		case xr.Float64:    setplace_expr; float64;
+		case xr.Complex64:  setplace_expr; complex64;
+		case xr.Complex128: setplace_expr; complex128;
+		case xr.String:     setplace_expr; string;
+		default:           setplace_expr; nil;
+		}
+	}
+}
+
+// placeSetZero compiles 'place = 0'
+func (c *Comp) placeSetZero(place *Place) Stmt {
+	rt := place.Type.ReflectType()
+	zero := xr.Zero(rt).Interface()
+	return c.placeSetConst(place, zero)
+}
+
+// placeSetConst compiles 'place = constant'
+func (c *Comp) placeSetConst(place *Place, val I) Stmt {
+	rt := place.Type.ReflectType()
+	v := xr.ValueOf(val)
+	if reflect.Type(v) == nil {
+		v = xr.Zero(rt)
+	} else {
+		v = convert(v, rt)
+	}
+	lhs := place.Fun
+	var ret Stmt
+	if mapkey := place.MapKey; mapkey != nil {
+		ret = func(env *Env) (Stmt, *Env) {
+			// enforce left-to-right evaluation order
+			obj := lhs(env)
+			key := mapkey(env)
+			obj.SetMapIndex(key, v)
+			env.IP++
+			return env.Code[env.IP], env
+		}
+		return ret
+	}
+	setplaces_const
+	return ret
+}
+
+// placeSetExpr compiles 'place = expression'
+func (c *Comp) placeSetExpr(place *Place, fun I) Stmt {
+	rt := place.Type.ReflectType()
+	lhs := place.Fun
+	var ret Stmt
+	if mapkey := place.MapKey; mapkey != nil {
+		rhs := funAsX1(fun, nil)
+		ret = func(env *Env) (Stmt, *Env) {
+			// enforce left-to-right evaluation order
+			obj := lhs(env)
+			key := mapkey(env)
+			val := rhs(env)
+			if val.Type() != rt {
+				val = convert(val, rt)
+			}
+			obj.SetMapIndex(key, val)
+			env.IP++
+			return env.Code[env.IP], env
+		}
+		return ret
+	}
+	setplaces_expr
+	return ret
+}
